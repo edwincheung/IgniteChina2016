@@ -10,7 +10,7 @@ namespace IgniteChina2016.Controllers
     {
         public IActionResult Index()
         {
-            ViewData["Message"] = "ASP .NET CORE running on " + Environment.MachineName + ". " ;
+            ViewData["Message"] = "ASP .NET  CORE running on " + Environment.MachineName + ". " ;
             return View();
         }
 
