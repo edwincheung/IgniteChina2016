@@ -1,5 +1,5 @@
 {
-  "name": "ignitechina2016",
+  "name": "webapplication",
   "private": true,
   "dependencies": {
     "bootstrap": "3.3.6",
