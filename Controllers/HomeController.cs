@@ -14,7 +14,7 @@ namespace WebApplication.Controllers
             //string nameFX = PlatformServices.Default.Application.RuntimeFramework.FullName.ToString();
             //string osNameAndVersion = System.Runtime.InteropServices.RuntimeInformation.OSDescription;
             
-            ViewData["Message"] = "";
+            ViewData["Message"] = " ";
             //ViewData["Message"] = nameFX + " running on " + osNameAndVersion + ". " ;
             
             return View();
