@@ -17,7 +17,7 @@ namespace WebApplication.Controllers
 
             //ViewData["Message"] = nameFX + " running on " + osNameAndVersion + ". " ;
 
-            ViewData["Message"] = "";
+            ViewData["Message"] = " ";
             
             return View();
         }
