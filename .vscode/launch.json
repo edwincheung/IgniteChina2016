@@ -6,7 +6,7 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/bin/Debug/netcoreapp1.0/IgniteChina2016.dll",
+            "program": "${workspaceRoot}/bin/Debug/netcoreapp1.1/IgniteChina2016.dll",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false,
