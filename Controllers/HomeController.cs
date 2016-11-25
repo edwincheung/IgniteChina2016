@@ -15,8 +15,10 @@ namespace WebApplication.Controllers
             string osNameAndVersion = System.Runtime.InteropServices.RuntimeInformation.OSDescription;
                
             //ViewData["Message"] = " ";
-            ViewData["Message"] = nameFX + " running on " + osNameAndVersion + ". " ;
-            
+            DateTime today = DateTime.Today.ToLocalTime();
+            ViewData["Today"] = today.Year.ToString() + "年" + today.Month.ToString() + "月" + today.Day.ToString() + "日"; 
+            ViewData["DOTNETCORE"] = nameFX;
+            ViewData["OSPlatform"] = osNameAndVersion;
             return View();
         }
 
