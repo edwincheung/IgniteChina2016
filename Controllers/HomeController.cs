@@ -16,8 +16,8 @@ namespace WebApplication.Controllers
                
             //ViewData["Message"] = " ";
             DateTime today = DateTime.Today.ToLocalTime();
-            ViewData["Today"] = today.Year.ToString() + "年" + today.Month.ToString() + "月" + today.Day.ToString() + "日 "; 
-            ViewData["DOTNETCORE"] = nameFX;
+            ViewData["Today"] = today.Year.ToString() + "年" + today.Month.ToString() + "月" + today.Day.ToString() + "日"; 
+            ViewData["DOTNETCORE"] = "China Ignite 2016 " + nameFX;
             ViewData["OSPlatform"] = osNameAndVersion;
             return View();
         }
