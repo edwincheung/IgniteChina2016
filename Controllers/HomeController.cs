@@ -14,7 +14,7 @@ namespace WebApplication.Controllers
             string nameFX = PlatformServices.Default.Application.RuntimeFramework.FullName.ToString();
             string osNameAndVersion = System.Runtime.InteropServices.RuntimeInformation.OSDescription;
                
-            ViewData["Greeting"] = "";
+            ViewData["Greeting"] = "Hello Ignite China";
             DateTime today = DateTime.Today.ToLocalTime();
             ViewData["Today"] = today.Year.ToString() + "年" + today.Month.ToString() + "月" + today.Day.ToString() + "日"; 
             ViewData["DOTNETCORE"] = nameFX;
